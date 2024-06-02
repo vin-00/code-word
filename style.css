@@ -1,0 +1,193 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    background-color: rgb(255, 205, 254);
+}
+
+.restart{
+    display: none;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.show{
+    display:block;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin-bottom: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+
+}
+
+hr{
+    width: 100%;
+    opacity:0.5;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color : rgb(15, 86, 200)
+}
+
+#board{
+    display: flex;
+    flex-direction: column; 
+}
+
+#board div{
+    margin: auto;
+    display: flex;
+}
+
+.tile{
+    border: 2px solid rgb(147, 147, 147);
+    height: 60px;
+    width: 60px;
+    margin: 2.5px;
+
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct{
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
+}
+
+.present{
+    background-color: #C9B458;
+    color: white;
+    border-color: white;
+}
+
+.absent{
+    background-color: #787C7E;
+    color: white;
+    border-color: white;
+}
+
+.keyboard-row{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keytile{
+    border: 1px solid rgb(147, 147, 147);
+    height: 40px;
+    width: 46px;
+    margin: 1px;
+
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-keytile{
+    border: 1px solid rgb(147, 147, 147);
+    height: 40px;
+    width: 96px;
+    margin: 1px;
+
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#length , #diff{
+    margin-top: 5px;
+    border-radius: 40px;
+    border: none;
+    width: 110px;
+    height: 35px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.success  , .second , .error{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px black;   
+}
+
+.success{
+    color : rgb(0, 156, 29); 
+}
+
+.error{
+    color : rgb(202, 0, 0)
+}
+
+.small{
+    color:black;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+@media (max-width:500px){
+    #answer{
+        font-size: 18px;
+    }
+    .small{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:550px){
+    .tile{
+        width:30px;
+        height: 30px;
+        font-size: 100%;
+    }
+}
+
+@media (min-width:1000px){
+    #answer{
+        width:50%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width:500px){
+    .keyboard-row{
+        width:100%;
+        margin-left:3%;
+    }
+
+    .keytile{
+        width:8%;
+    }
+
+    .enter-keytile{
+        width:17%;
+    }
+}

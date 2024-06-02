@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeWordle</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Code-Wordle</h1>
+
+    <header>
+        <article>
+            <label for="length">Select word length</label>
+
+            <select name="length" id="length">
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            
+            </select>
+        </article>
+
+        <button class="restart">ReStart</button>
+        <article>
+            <label for="diff">Select Difficulty</label>
+    
+            <select name="diff" id="diff">
+                <option value="7">Amateur</option>
+                <option value="5" selected>Professional</option>
+                <option value="3">Nightmare</option>
+                
+            </select>
+        </article>
+        
+    </header>
+    
+    <hr>
+    <div id="board">
+
+    </div>
+
+    <h1 id="answer"></h1>
+    <script src="wordle.js" type="module"></script>
+</body>
+</html>
