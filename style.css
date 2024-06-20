@@ -4,8 +4,8 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root::-webkit:scrollbar{
-    display:none;
+body::-webkit-scrollbar{
+  display: none;
 }
 
 .restart{
