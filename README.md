@@ -1,5 +1,9 @@
 # Code-Word Web App
 
+## [Play the game](https://code-word-fe029b.netlify.app/)
+![image](https://github.com/vin-00/code-word/assets/132657698/990864af-f8ed-4fbc-9de3-a5d820cd3f94)
+
+
 ## Overview
 
 **Code-Word** is a web-based game inspired by the popular game Wordle. In Code-Word, players guess programming-related words within a limited number of attempts. The game offers customizable features, allowing players to change the number of guesses and the length of the word to make the game more challenging and engaging.
