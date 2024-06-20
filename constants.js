@@ -165,6 +165,7 @@ const words = {
     
     "Markup": "A simple language that determines what appears on a computer screen. HTML and XML are markup languages.",
     "MEAN": "A complete framework for web development. MongoDB is the M. Express.js is the E. Angular.js is the A. Node.js is the N.",
+    "MERN": "A complete framework for web development. MongoDB is the M. Express.js is the E. React.js is the R. Node.js is the N.",
     "Microbit": "A tiny computer used in programming courses for kids. The Micro:bit works with lots of sensors and electronic accessories.",
     "MongoDB": "A database for web applications. Mongo uses a JSON-like structure instead of rows and columns.",
     "MVC": "Used for many kinds of development, MVC is a three-part design pattern. It stands for Model View Controller. Each piece of MVC handles a different part of a program.",
